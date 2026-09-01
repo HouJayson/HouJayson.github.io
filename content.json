@@ -1,0 +1,87 @@
+{
+  "name": "Jixin Hou",
+  "tagline": "Understanding how the brain takes shape.",
+  "subtitle": "Computational Brain Biomechanics \u00b7 Neuroimaging \u00b7 AI",
+  "intro": "I combine developmental neuroimaging, computational mechanics, and interpretable AI to uncover the physical principles of human brain growth, folding, and development.",
+  "email": "jixin.hou@uga.edu",
+  "scholar": "https://scholar.google.com/citations?user=TJT84Z0AAAAJ&hl=en",
+  "github": "https://github.com/HouJayson",
+  "cv_path": "assets/Jixin_Hou_CV.pdf",
+  "hero_image": "assets/hero_brain1.png",
+  "research": [
+    {
+      "title": "Developmental cortical mapping",
+      "text": "Mapping spatially heterogeneous cortical growth from large-scale fetal and neonatal neuroimaging."
+    },
+    {
+      "title": "Whole-brain morphogenesis",
+      "text": "Building anatomically realistic finite-element models of cortical growth and folding."
+    },
+    {
+      "title": "Interpretable scientific AI",
+      "text": "Using machine learning and symbolic regression to discover compact, physics-compatible models."
+    }
+  ],
+  "publications": [
+    {
+      "year": "2026",
+      "title": "Biophysical modeling of anatomically realistic prenatal cortical folding development",
+      "authors": "Jixin Hou, Zhengwang Wu, Kun Jiang, Taotao Wu, Lu Zhang, et al.",
+      "journal": "Nature Communications",
+      "url": "https://doi.org/10.1038/s41467-026-75582-9",
+      "summary": "Imaging-informed, whole-brain biophysical modeling of prenatal cortical morphogenesis.",
+      "image": "assets/pub_folding_nc.png",
+      "first_author": true
+    },
+    {
+      "year": "2025",
+      "title": "Mechanical characterization of brain tissue: experimental techniques, human testing considerations, and perspectives",
+      "authors": "Jixin Hou, Kun Jiang, Arunachalam Ramanathan, et al.",
+      "journal": "Acta Biomaterialia",
+      "url": "https://doi.org/10.1016/j.actbio.2025.07.046",
+      "summary": "A broad synthesis of experimental and imaging approaches for characterizing brain tissue mechanics.",
+      "image": "assets/pub_review_actabio.png",
+      "first_author": true
+    },
+    {
+      "year": "2025",
+      "title": "Role of data-driven regional growth model in shaping brain folding patterns",
+      "authors": "Jixin Hou, Zhengwang Wu, Xianyan Chen, Li Wang, et al.",
+      "journal": "Soft Matter",
+      "url": "https://doi.org/10.1039/D4SM01194E",
+      "summary": "Regional growth laws derived from imaging improve mechanistic simulations of cortical folding.",
+      "image": "assets/pub_SRsimu_softmatter.png",
+      "first_author": true
+    },
+    {
+      "year": "2025",
+      "title": "Exploring hyperelastic material model discovery for human brain cortex: Multivariate analysis vs. artificial neural network approaches",
+      "authors": "Jixin Hou, Nicholas Filla, Xianyan Chen, Mir Jalil Razavi, et al.",
+      "journal": "Journal of the Mechanical Behavior of Biomedical Materials",
+      "url": "https://doi.org/10.1016/j.jmbbm.2025.106934",
+      "summary": "Comparing interpretable regression and neural approaches for automated constitutive-model discovery.",
+      "image": "assets/pub_CANN_JMBBM.png",
+      "first_author": true
+    },
+    {
+      "year": "2024",
+      "title": "Automated data-driven discovery of material models based on symbolic regression: A case study on the human brain cortex",
+      "authors": "Jixin Hou, Xianyan Chen, Taotao Wu, Ellen Kuhl, Xianqiao Wang",
+      "journal": "Acta Biomaterialia",
+      "url": "https://doi.org/10.1016/j.actbio.2024.09.005",
+      "summary": "Symbolic regression discovers interpretable hyperelastic models directly from mechanical data.",
+      "image": "assets/pub_SR_actabio.png",
+      "first_author": true
+    },
+    {
+      "year": "2024",
+      "title": "A multiscale computation study on bruise susceptibility of blueberries from mechanical impact",
+      "authors": "Jixin Hou, Bosoon Park, Changying Li, Xianqiao Wang",
+      "journal": "Postharvest Biology and Technology",
+      "url": "https://doi.org/10.1016/j.postharvbio.2023.112660",
+      "summary": "Multiscale finite-element modeling links fruit microstructure, impact conditions, and bruising.",
+      "image": "assets/pub_blueberry_PostHarvest.png",
+      "first_author": true
+    }
+  ]
+}
