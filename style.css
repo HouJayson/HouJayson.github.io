@@ -4,9 +4,7 @@
     --accent:#205a97;
     --line:#dce4ec;
     --soft:#f6f9fc;
-
-    /* Wider desktop content */
-    --max:1650px;
+    --max:1780px;
 }
 
 *{
@@ -15,9 +13,7 @@
 
 html{
     scroll-behavior:smooth;
-
-    /* Increase the scale of the entire website */
-    font-size:17px;
+    font-size:18px;
 }
 
 body{
@@ -39,7 +35,7 @@ img{
 }
 
 .wrap{
-    width:min(var(--max),calc(100% - 80px));
+    width:min(var(--max),calc(100% - 70px));
     margin:auto;
 }
 
@@ -60,7 +56,7 @@ header{
 }
 
 nav{
-    height:82px;
+    height:90px;
 
     display:flex;
     align-items:center;
@@ -69,18 +65,17 @@ nav{
 
 .brand{
     font-family:Georgia,serif;
-
-    font-size:1.65rem;
+    font-size:1.85rem;
     font-weight:700;
 }
 
 .links{
     display:flex;
-    gap:38px;
+    gap:44px;
 }
 
 .links a{
-    font-size:1rem;
+    font-size:1.08rem;
     color:#39485e;
 }
 
@@ -105,19 +100,19 @@ nav{
 
     grid-template-columns:.9fr 1.1fr;
 
-    gap:65px;
+    gap:75px;
 
     align-items:center;
 
-    padding:90px 0 80px;
+    padding:100px 0 90px;
 
-    min-height:calc(100vh - 82px);
+    min-height:calc(100vh - 90px);
 }
 
 .eyebrow{
     color:var(--accent);
 
-    font-size:.88rem;
+    font-size:.95rem;
 
     font-weight:700;
 
@@ -129,7 +124,7 @@ nav{
 .hero h1{
     font-family:Georgia,serif;
 
-    font-size:clamp(3.6rem,5.8vw,6.6rem);
+    font-size:clamp(4rem,6vw,7rem);
 
     line-height:1.02;
 
@@ -137,33 +132,33 @@ nav{
 
     letter-spacing:-.04em;
 
-    margin:20px 0;
+    margin:22px 0;
 }
 
 .hero .intro{
-    font-size:1.25rem;
+    font-size:1.35rem;
 
     line-height:1.7;
 
     color:var(--muted);
 
-    max-width:700px;
+    max-width:760px;
 }
 
 .buttons{
     display:flex;
 
-    gap:14px;
+    gap:16px;
 
-    margin-top:32px;
+    margin-top:36px;
 }
 
 .button{
-    padding:13px 20px;
+    padding:14px 22px;
 
     border:1px solid var(--ink);
 
-    font-size:.95rem;
+    font-size:1rem;
 }
 
 .button.primary{
@@ -178,23 +173,22 @@ nav{
 
 .hero-figure img{
     width:100%;
-
     border-radius:26px;
 }
 
 .hero-note{
     position:absolute;
 
-    right:24px;
-    bottom:20px;
+    right:26px;
+    bottom:22px;
 
-    background:rgba(255,255,255,.9);
+    background:rgba(255,255,255,.90);
 
-    padding:11px 15px;
+    padding:12px 16px;
 
     border:1px solid var(--line);
 
-    font-size:.82rem;
+    font-size:.9rem;
 
     color:var(--muted);
 }
@@ -205,7 +199,7 @@ nav{
    ========================================================= */
 
 section{
-    padding:100px 0;
+    padding:110px 0;
 
     border-top:1px solid var(--line);
 }
@@ -215,17 +209,17 @@ section{
 
     justify-content:space-between;
 
-    gap:50px;
+    gap:55px;
 
     align-items:flex-end;
 
-    margin-bottom:48px;
+    margin-bottom:55px;
 }
 
 .section-top h2{
     font-family:Georgia,serif;
 
-    font-size:clamp(2.8rem,4vw,4.6rem);
+    font-size:clamp(3.3rem,4.5vw,5.3rem);
 
     line-height:1.05;
 
@@ -237,15 +231,15 @@ section{
 }
 
 .section-top p{
-    max-width:620px;
+    max-width:650px;
 
     color:var(--muted);
 
     margin:0;
 
-    font-size:1rem;
+    font-size:1.08rem;
 
-    line-height:1.65;
+    line-height:1.7;
 }
 
 
@@ -258,17 +252,17 @@ section{
 
     grid-template-columns:repeat(3,1fr);
 
-    gap:26px;
+    gap:32px;
 }
 
 .research-card{
     border-top:2px solid var(--ink);
 
-    padding:26px 8px 18px;
+    padding:30px 8px 20px;
 }
 
 .research-card span{
-    font-size:.82rem;
+    font-size:.88rem;
 
     color:var(--accent);
 
@@ -278,21 +272,21 @@ section{
 .research-card h3{
     font-family:Georgia,serif;
 
-    font-size:1.9rem;
+    font-size:2.15rem;
 
     line-height:1.2;
 
     font-weight:500;
 
-    margin:38px 0 14px;
+    margin:42px 0 16px;
 }
 
 .research-card p{
     color:var(--muted);
 
-    font-size:1rem;
+    font-size:1.08rem;
 
-    line-height:1.65;
+    line-height:1.68;
 }
 
 
@@ -305,7 +299,7 @@ section{
 
     grid-template-columns:repeat(2,minmax(0,1fr));
 
-    gap:24px;
+    gap:28px;
 }
 
 .pub{
@@ -316,13 +310,13 @@ section{
     display:grid;
 
     /*
-    Give more space to your scientific figures.
+    More room for scientific figures.
     */
-    grid-template-columns:42% 58%;
+    grid-template-columns:44% 56%;
 
     align-items:center;
 
-    min-height:300px;
+    min-height:350px;
 
     overflow:hidden;
 
@@ -342,7 +336,7 @@ section{
 }
 
 
-/* Complete publication figure */
+/* Publication figure */
 
 .pub img{
     width:100%;
@@ -351,7 +345,7 @@ section{
 
     max-width:100%;
 
-    max-height:360px;
+    max-height:420px;
 
     object-fit:contain;
 
@@ -363,21 +357,21 @@ section{
 
     background:#fff;
 
-    padding:10px;
+    padding:12px;
 }
 
 
-/* Publication text */
+/* Publication text area */
 
 .pub-body{
-    padding:30px 34px;
+    padding:34px 38px;
 }
 
 
-/* 2026 · Nature Communications */
+/* Year + journal */
 
 .pub-meta{
-    font-size:1.12rem;
+    font-size:1.25rem;
 
     line-height:1.35;
 
@@ -385,7 +379,7 @@ section{
 
     font-weight:700;
 
-    margin-bottom:14px;
+    margin-bottom:16px;
 
     letter-spacing:.005em;
 }
@@ -396,56 +390,56 @@ section{
 .pub h3{
     font-family:Georgia,serif;
 
-    font-size:1.42rem;
+    font-size:1.58rem;
 
     line-height:1.28;
 
-    margin:0 0 14px;
+    margin:0 0 16px;
 
     font-weight:500;
 }
 
 
-/* Authors + normal publication text */
+/* Authors + standard text */
 
 .pub p{
-    font-size:.94rem;
+    font-size:1.02rem;
 
-    line-height:1.55;
+    line-height:1.58;
 
     color:var(--muted);
 
-    margin:7px 0;
+    margin:8px 0;
 }
 
 
-/* Short description */
+/* Research summary */
 
 .pub .summary{
-    margin-top:15px;
+    margin-top:17px;
 
     color:#48576b;
 
-    font-size:.94rem;
+    font-size:1.02rem;
 
-    line-height:1.6;
+    line-height:1.62;
 }
 
 
-/* Google Scholar link */
+/* Scholar link */
 
 .scholar-link{
     display:inline-block;
 
-    margin-top:36px;
+    margin-top:42px;
 
     color:var(--accent);
 
-    font-size:1rem;
+    font-size:1.08rem;
 
     border-bottom:1px solid var(--accent);
 
-    padding-bottom:2px;
+    padding-bottom:3px;
 }
 
 
@@ -454,7 +448,7 @@ section{
    ========================================================= */
 
 .contact{
-    padding:80px 0;
+    padding:90px 0;
 }
 
 .contact-row{
@@ -462,7 +456,7 @@ section{
 
     justify-content:space-between;
 
-    gap:40px;
+    gap:45px;
 
     align-items:center;
 }
@@ -470,11 +464,11 @@ section{
 .contact h2{
     font-family:Georgia,serif;
 
-    font-size:2.7rem;
+    font-size:3rem;
+
+    line-height:1.18;
 
     font-weight:500;
-
-    line-height:1.2;
 
     margin:0;
 }
@@ -482,9 +476,9 @@ section{
 .small-links{
     display:flex;
 
-    gap:24px;
+    gap:28px;
 
-    font-size:1rem;
+    font-size:1.08rem;
 }
 
 .small-links a{
@@ -499,20 +493,20 @@ section{
 footer{
     border-top:1px solid var(--line);
 
-    padding:28px 0;
+    padding:30px 0;
 
     color:var(--muted);
 
-    font-size:.86rem;
+    font-size:.9rem;
 }
 
 
 /* =========================================================
-   CV
+   CV page
    ========================================================= */
 
 .cv-page{
-    padding:110px 0;
+    padding:120px 0;
 
     min-height:70vh;
 }
@@ -520,7 +514,7 @@ footer{
 .cv-page h1{
     font-family:Georgia,serif;
 
-    font-size:4.5rem;
+    font-size:5rem;
 
     font-weight:500;
 }
@@ -530,32 +524,39 @@ footer{
 
     background:var(--soft);
 
-    padding:34px;
+    padding:36px;
 
-    max-width:800px;
+    max-width:850px;
+
+    font-size:1.05rem;
 }
 
 
 /* =========================================================
-   Medium desktop / tablet
+   Medium desktop
    ========================================================= */
 
-@media(max-width:1200px){
+@media(max-width:1400px){
 
     html{
-        font-size:16px;
+        font-size:17px;
     }
 
     .wrap{
-        width:min(1100px,calc(100% - 50px));
+        width:min(1280px,calc(100% - 50px));
     }
 
     .pub{
-        grid-template-columns:40% 60%;
+        grid-template-columns:42% 58%;
+        min-height:310px;
     }
 
     .pub-body{
-        padding:24px;
+        padding:28px;
+    }
+
+    .pub h3{
+        font-size:1.45rem;
     }
 
 }
@@ -567,16 +568,28 @@ footer{
 
 @media(max-width:900px){
 
+    html{
+        font-size:16px;
+    }
+
     .wrap{
         width:calc(100% - 36px);
+    }
+
+    nav{
+        height:82px;
     }
 
     .hero{
         grid-template-columns:1fr;
 
-        padding-top:60px;
+        padding-top:65px;
 
-        gap:40px;
+        gap:45px;
+    }
+
+    .hero h1{
+        font-size:clamp(3.5rem,9vw,5rem);
     }
 
     .research-grid{
@@ -588,9 +601,9 @@ footer{
     }
 
     .pub{
-        grid-template-columns:40% 60%;
+        grid-template-columns:42% 58%;
 
-        min-height:250px;
+        min-height:280px;
     }
 
     .links{
@@ -647,8 +660,32 @@ footer{
         height:70px;
     }
 
+    .brand{
+        font-size:1.55rem;
+    }
+
+    .hero{
+        padding-top:50px;
+    }
+
     .hero h1{
         font-size:3.2rem;
+    }
+
+    .hero .intro{
+        font-size:1.1rem;
+    }
+
+    section{
+        padding:75px 0;
+    }
+
+    .section-top h2{
+        font-size:2.8rem;
+    }
+
+    .research-card h3{
+        font-size:1.8rem;
     }
 
     .pub{
@@ -666,14 +703,31 @@ footer{
 
         object-fit:contain;
 
-        padding:10px;
+        padding:12px;
     }
 
     .pub-body{
-        padding:22px;
+        padding:24px;
+    }
+
+    .pub-meta{
+        font-size:1.12rem;
+    }
+
+    .pub h3{
+        font-size:1.45rem;
+    }
+
+    .pub p,
+    .pub .summary{
+        font-size:1rem;
     }
 
     .buttons{
         flex-wrap:wrap;
+    }
+
+    .contact h2{
+        font-size:2.4rem;
     }
 }
